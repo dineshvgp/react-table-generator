@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import ReactTable from './ReactTable';
 import './App.css';
 
+const data = [
+  ['Dropbox', 'paper', 'like'],
+  ['table', '', '']
+]
+
 class App extends Component {
   render() {
     return (
@@ -10,7 +15,7 @@ class App extends Component {
           <h2>React Table Generator</h2>
         </div>
         <div className="App-preview">
-          <ReactTable rowsCount={2} columnsCount={2} />
+          <ReactTable data={data} />
         </div>
       </div>
     );
