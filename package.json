@@ -6,7 +6,7 @@
     "react": "^15.6.1",
     "react-contenteditable": "^2.0.4",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-scripts": "2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
